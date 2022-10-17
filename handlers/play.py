@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ASOmusic_asisstant1"
+        user.first_name = "FastMusicAssistan"
     usar = user
     wew = usar.id
     try:
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🍷 Əyləncə", url=f"https://t.me/WerabliAnlar"),
-                InlineKeyboardButton("🙋🏻‍♂️ ASO🇦🇿 Rəsmi", url=f"https://t.me/ASOresmi"),
+                InlineKeyboardButton("🍷 Əyləncə", url=f"https://t.me/lovelesslifee"),
+                InlineKeyboardButton("🙋🏻‍♂️ LUCİFER PROJE ", url=f"https://t.me/LuciferProje"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
@@ -228,7 +228,7 @@ async def play(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await lel.edit("🤔 **Dinləmək istədiyin mahnı nədir? @WerabliAnlar**")
+            return await lel.edit("🤔 **Dinləmək istədiyin mahnı nədir? @lovelesslifee**")
         await lel.edit("🔎 **Zəhmət olmasa Gözləyin...**")
         query = message.text.split(None, 1)[1]
         # print(query)
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🍷 Əyləncə", url=f"https://t.me/WerabliAnlar"),
-                InlineKeyboardButton("🙋🏻‍♂️ ASO🇦🇿 Rəsmi", url=f"https://t.me/ASOresmi"),
+                InlineKeyboardButton("🍷 Əyləncə", url=f"https://t.me/lovelesslifee"),
+                InlineKeyboardButton("🙋🏻‍♂️ LUCİFER PROJE", url=f"https://t.me/LuciferProje"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
