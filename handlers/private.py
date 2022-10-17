@@ -8,8 +8,9 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://te.legra.ph/file/0a4f06f27de1ae61784fa.jpg",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [LUCİFER](https://t.me/R4V1_V3Y1S)**"""),
+                "https://t.me/brendbotlogo/3292
+",
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam.\n💕 Sevgiyə 💕 aid gözəl  paylaşımlar : @lovelesslifee 🙈 \n\n🤖 Digər Botlar: @LuciferProje**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
