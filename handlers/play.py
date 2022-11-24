@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🍷 Əyləncə", url=f"https://t.me/lovelesslifee"),
-                InlineKeyboardButton("🙋🏻‍♂️ LUCİFER PROJE ", url=f"https://t.me/LuciferProje"),
+                InlineKeyboardButton("Əyləncə 🍷", url=f"https://t.me/HasbullaBlog"),
+                InlineKeyboardButton("Rəsmi Kanal 📢  ", url=f"https://t.me/HasbullaMMC"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
@@ -255,7 +255,7 @@ async def play(_, message: Message):
                 
         except Exception as e:
             await lel.edit(
-                "❌ Mahnı tapılmadı\n\nBaşqa mahnı yoxlayın və ya mahnı adı düzgün deyil @ASOresmi 🇦🇿"
+                "❌ Mahnı tapılmadı\n\nBaşqa mahnı yoxlayın və ya mahnı adı düzgün deyil @HasbullaMMC 🇦🇿"
             )
             print(str(e))
             return
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🍷 Əyləncə", url=f"https://t.me/lovelesslifee"),
-                InlineKeyboardButton("🙋🏻‍♂️ LUCİFER PROJE", url=f"https://t.me/LuciferProje"),
+                InlineKeyboardButton("Əyləncə 🍷", url=f"https://t.me/HasbullaBlog"),
+                InlineKeyboardButton("Rəsmi Kanal 📢", url=f"https://t.me/HasbullaMMC"),
             ],[
                 InlineKeyboardButton("📲 Bağla", callback_data="cls"),
             ],
