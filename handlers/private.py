@@ -8,22 +8,22 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://te.legra.ph/file/f01b0e2a050ef94bfb5bf.jpg"
+                "https://telegra.ph//file/b43a6777263d5dc68390e.jpg"
 ",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam.\n💕 Sevgiyə 💕 aid gözəl  paylaşımlar : @lovelesslifee 🙈 \n\n🤖 Digər Botlar: @LuciferProje**"""),
+                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam.\n Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\n🤖 Rəsmi Kanal : @HasbullaMMC **"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/FastMusiciBot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/FastMusicAssistan"
+                        "🔊 Asistan", url="https://t.me/HasbullaMusicAsistan"
                     ),
                     InlineKeyboardButton(
-                        "Əyləncə 💬", url="https://t.me/lovelesslifee"
+                        "Əyləncə 💬", url="https://t.me/HasbullaBlog"
                     )
                 ],
                 [
@@ -31,7 +31,7 @@ async def start(_, message: Message):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/lovelesslifee"
+                        "Rəsmi Kanal 📢", url=f"https://t.me/HasbullaMMC"
                     )
                 ]
                 
@@ -57,7 +57,7 @@ async def bilgi(_, message: Message):
                          "Geri 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Owner 🇦🇿", url="https://t.me/R4V1_V3Y1S")
+                         "Owner 🇦🇿", url="https://t.me/Hasbullahh")
                  ]
              ]
          )
@@ -83,7 +83,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Owner 🇦🇿", url="https://t.me/R4V1_V3Y1S")
+            "Owner 🇦🇿", url="https://t.me/Hasbullahh")
         ]
       ]
      ))
@@ -96,7 +96,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Owner 🇦🇿", url="https://t.me/R4V1_V3Y1S")
+                         "Owner 🇦🇿", url="https://t.me/Hasbullahh")
                  ],
                  [
                      InlineKeyboardButton(
@@ -114,7 +114,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Owner 🇦🇿", url="https://t.me/R4V1_V3Y1S")
+                         "Owner 🇦🇿", url="https://t.me/Hasbullahh")
                  ],
                  [
                      InlineKeyboardButton(
@@ -132,15 +132,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/FastMusiciBot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/HasbullaMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/FastMusicAssistan"
+                        "🔊 Asistan", url="https://t.me/HasbullaMusicAsistan"
                     ),
                     InlineKeyboardButton(
-                        "Əyləncə 💬", url="https://t.me/lovelesslifee"
+                        "Əyləncə 💬", url="https://t.me/HasbullaBlog"
                     )
                 ],
                 [
@@ -148,7 +148,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🧩 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/lovelesslifee"
+                        "Rəsmi Kanal 📢", url=f"https://t.me/HasbullaMMC"
                     )
                 ]
                 
